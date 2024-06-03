@@ -1,0 +1,11 @@
+import random
+
+random_number = random.randint(1, 100)
+print("Случайное число:", random_number)
+
+my_list = ["яблоко", "банан", "апельсин", "груша"]
+random_fruit = random.choice(my_list)
+print("Случайный фрукт:", random_fruit)
+
+random.shuffle(my_list)
+print("Перемешанный список:", my_list)
